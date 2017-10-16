@@ -6,7 +6,7 @@ black = 0,0,0
 
 screen = pygame.display.set_mode(size)
 
-ball = pygame.image.load('ball.gif')
+ball = pygame.image.load('src/ball.gif')
 ballrect = ball.get_rect()
 
 while 1:
