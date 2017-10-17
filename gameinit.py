@@ -2,6 +2,7 @@ import pygame,tank
 import setting as s
 pygame.init()
 screen = pygame.display.set_mode(s.res)
+pygame.display.set_caption('abc')
 playerTank = tank.Tank(screen)
 while 1:
     for event in pygame.event.get():
